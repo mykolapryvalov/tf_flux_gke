@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "vit-secret"
+    bucket  = "mp-secret"
     prefix  = "terraform/state"
   }
 }
